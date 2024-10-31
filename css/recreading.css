@@ -1,0 +1,52 @@
+/*
+Special styles for Recommended Reading: Google Reader Shared plugin
+Styles and plugin created by C. Murray Consulting (www.cmurrayconsulting.com)
+*/
+
+div.post ul.gReader-list {
+  list-style: none !important;
+  padding: 0px !important;
+  margin: 1em 0px !important;
+  text-indent: 0 !important;
+}
+
+div.post ul.gReader-list li:before {
+  content: "" !important;
+}
+
+div.post ul.gReader-list li {
+  padding: 0px !important;
+  margin: 2em 0px !important;
+}
+
+div.post ul.gReader-list a.gReader-title {
+  font-size: 1.1em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  display: block !important;
+  margin-bottom: .3em !important;
+}
+
+div.post ul.gReader-list div.gReader-date {
+  display: inline;
+  padding-right: 10px;
+  font-size: .92em;
+  border-right: 1px solid #000;
+}
+
+div.post ul.gReader-list div.gReader-source {
+  padding-right: 0;
+  border-right: 0;
+  font-size: .92em;
+  display: inline; 
+  padding-left: 10px; 
+}
+
+div.post ul.gReader-list div.gReader-notes, div.post ul.gReader-list div.gReader-desc {
+  margin: .3em 0px;
+}
+
+div.post ul.gReader-list div.gReader-notes span.preface {
+  font-weight: bold;
+  font-style: italic;
+}
